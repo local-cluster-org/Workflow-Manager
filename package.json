@@ -1,0 +1,23 @@
+{
+  "name": "!Exemptiddon state test!!",
+  "version": "1.0.0",
+  "description": "fors node proj!scxk!cddewct!dssd!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+ "dependencies": {
+    "lodash": "4.17.20",
+    "axios": "0.21.1",
+    "minimist": "1.2.5",
+    "glob-parent": "5.1.1",
+    "node-forge": "1.2.1",
+    "json5": "1.0.1",
+    "qs": "6.5.2",
+    "path-parse": "1.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
