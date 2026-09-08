@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "data" {
 
 resource "aws_s3_bucket_acl" "data_acl" {
   bucket = aws_s3_bucket.data.id
-  acl    = "public-read-write"          # KICS: S3 Bucket Allows Public ACL/READ/WRITE
+  acl    = "public-read-write"          # KICS: S3 Bucket Allows Public ACL/READ/WRITE.
 }
 
 resource "aws_s3_bucket_public_access_block" "data_block" {
