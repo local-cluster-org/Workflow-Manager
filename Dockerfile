@@ -1,9 +1,9 @@
 FROM ubuntu:18.04
 
-# Vulnerability: outdated/EOL base image
+# Vulnerability: outdated/EOL base imagefsd
 FROM ubuntu:18.04
 
-# Vulnerability: running package installation without updating
+# Vulnerability: running package installation without updatingsdfsd
 RUN apt-get install -y curl wget openssh-server
 
 # Vulnerability: installs unnecessary packages
