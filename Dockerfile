@@ -10,16 +10,16 @@ RUN apt-get install -y curl wget openssh-server
 RUN apt-get install -y gcc g++ make sudo vim netcat
 
 # Vulnerability: hardcoded secret
-ENV AWS_ACCESS_KEY_ID="AKIAEXAMPLE123456"
-ENV AWS_SECRET_ACCESS_KEY="SuperSecretPassword123"
+ENV AWS_ACCESS_KEY_ID="AKIAEXAMPLE123456fdg"
+ENV AWS_SECRET_ACCESS_KEY="SuperSecretPasswordfghfg123"
 
 # Vulnerability: creates a privileged user
 RUN useradd -m -s /bin/bash admin
-RUN echo "admin:Password123!" | chpasswd
+RUN echo "admin:Passwogfhrd123!" | chpasswd
 RUN usermod -aG sudo admin
 
 # Vulnerability: exposes SSH
-EXPOSE 22
+EXPOSE 23
 
 # Vulnerability: insecure permissions
 RUN chmod 777 /etc
