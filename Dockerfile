@@ -10,7 +10,7 @@ RUN apt-get install -y curl wget openssh-server
 RUN apt-get install -y gcc g++ make sudo vim netcat
 
 # Vulnerability: hardcoded secret
-ENV AWS_ACCESS_KEY_ID="AKIAEXAMPLfeE123456fdg"
+ENV AWS_ACCESS_KEY_ID="AKIAEXAMPLfeE1234dssd56fdg"
 ENV AWS_SECRET_ACCESS_KEY="SuperSecretPasswordfghfg123"
 
 # Vulnerability: creates a privileged user
