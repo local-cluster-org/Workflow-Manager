@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 # Vulnerability: outdated/EOL base imagefsd
 FROM ubuntu:18.04
 
-# Vulnerability: --running package installation without updatingsdfsd
+# Vulnerability: --running package installation wixcxcthout updatingsdfsd
 RUN apt-get install -y curl wget openssh-server
 
 # Vulnerability: installs unnecessary packages
